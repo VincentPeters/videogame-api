@@ -9,8 +9,10 @@ API_BASE_URL = "https://my-json-server.typicode.com/VincentPeters/videogame-api"
 
 @app.route("/")
 def home():
+    url = f"{API_BASE_URL}/platform"
+    print(url)
     # Fetch all platforms
-    response = requests.get(f"{API_BASE_URL}/platform")
+    response = requests.get(url)
     if response.status_code == 200:
         platforms = response.json()
     else:
@@ -48,5 +50,4 @@ def game(game_id):
     return render_template("game.html", game=game)
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+app.run(host="0.0.0.0", port=5000)

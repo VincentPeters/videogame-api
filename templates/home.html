@@ -1,0 +1,51 @@
+<!-- templates/home.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Video Game Platforms</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <marquee scrollamount="5"
+      ><h1>Welcome to Retro Gaming!</h1></marquee
+    >
+    <div class="navbar">
+      <a href="/">Home</a>
+    </div>
+
+    <!-- Add flair text -->
+    <p>
+      Welcome to the ultimate retro gaming database! Dive into the
+      nostalgia and explore classic gaming platforms from the past.
+    </p>
+
+    <!-- Change platform list to a grid column -->
+    <div class="platform-grid">
+      {% for platform in platforms %}
+      <div class="platform-item">
+        <a
+          href="{{ url_for('platform', platform_id=platform['id']) }}"
+        >
+          <h2>{{ platform['name'] }}</h2>
+        </a>
+        <img
+          src="{{ platform['image'] }}"
+          alt="{{ platform['name'] }}"
+          width="200"
+        />
+        <p>{{ platform['description'] }}</p>
+        <p>Manufacturer: {{ platform['manufacturer'] }}</p>
+        <p>Released in {{ platform['year'] }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <footer>
+      <p>&copy; 1999 Retro Gaming Site</p>
+    </footer>
+  </body>
+</html>

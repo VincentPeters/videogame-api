@@ -1,0 +1,35 @@
+<!-- templates/game.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ game['name'] }}</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <marquee scrollamount="5"><h1>{{ game['name'] }}</h1></marquee>
+    <div class="navbar">
+      <a href="/">Home</a>
+      <a
+        href="{{ url_for('platform', platform_id=game['platform']) }}"
+        >Back to Platform</a
+      >
+    </div>
+    <img
+      src="{{ game['image'] }}"
+      alt="{{ game['name'] }}"
+      width="200"
+    />
+    <p>Genre: {{ game['genre'] }}</p>
+    <p>Release Date: {{ game['release_date'] }}</p>
+    <p>Developer: {{ game['developer'] }}</p>
+    <p>Publisher: {{ game['publisher'] }}</p>
+    <footer>
+      <p>&copy; 1999 Retro Gaming Site</p>
+    </footer>
+  </body>
+</html>

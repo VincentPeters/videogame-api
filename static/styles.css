@@ -1,0 +1,74 @@
+/* static/styles.css */
+body {
+    background-color: #ffcc99;
+    color: #000000;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #ff0066;
+    text-shadow: 2px 2px #ff66cc;
+}
+
+a {
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #ff9966;
+    padding: 10px;
+    border: 2px dashed #ff0066;
+}
+
+.navbar a {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #ff9966;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px dashed #ff0066;
+}
+
+img {
+    border: 5px solid #ff0066;
+}
+
+hr {
+    border: 1px dotted #ff0066;
+}
+
+marquee {
+    font-size: 24px;
+    color: #ff0066;
+}
+
+.platform-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.platform-item {
+    background-color: #ffeecc;
+    padding: 10px;
+    border: 2px dotted #ff0066;
+    text-align: center;
+}
+
+.platform-item h2 {
+    font-size: 24px;
+}
+
+.platform-item img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ff0066;
+}

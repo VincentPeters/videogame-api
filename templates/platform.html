@@ -1,0 +1,54 @@
+<!-- templates/platform.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ platform['name'] }} - Games</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <marquee scrollamount="5"
+      ><h1>{{ platform['name'] }}</h1></marquee
+    >
+    <div class="navbar">
+      <a href="/">Home</a>
+      <a href="{{ url_for('home') }}">Back to Platforms</a>
+    </div>
+    <img
+      src="{{ platform['image'] }}"
+      alt="{{ platform['name'] }}"
+      width="200"
+    />
+    <p>{{ platform['description'] }}</p>
+    <p>Manufacturer: {{ platform['manufacturer'] }}</p>
+    <p>Released in {{ platform['year'] }}</p>
+
+    <h2>Games Available:</h2>
+    <ul>
+      {% for game in games %}
+      <li>
+        <a href="{{ url_for('game', game_id=game['id']) }}">
+          <h3>{{ game['name'] }}</h3>
+        </a>
+        <img
+          src="{{ game['image'] }}"
+          alt="{{ game['name'] }}"
+          width="150"
+        />
+        <p>Genre: {{ game['genre'] }}</p>
+        <p>Release Date: {{ game['release_date'] }}</p>
+        <hr />
+      </li>
+      {% else %}
+      <p>No games available for this platform.</p>
+      {% endfor %}
+    </ul>
+    <footer>
+      <p>&copy; 1999 Retro Gaming Site</p>
+    </footer>
+  </body>
+</html>
