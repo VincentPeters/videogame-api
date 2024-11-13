@@ -1,0 +1,26 @@
+{
+  "platform": [
+    {
+      "id": 1,
+      "name": "NES",
+      "year": 1983
+    },
+    {
+      "id": 2,
+      "name": "XBOX",
+      "year": 2001
+    }
+  ],
+  "games":[
+    {
+      "id": 1,
+      "name": "Super mario",
+      "platform": 1
+    },
+    {
+      "id": 2,
+      "name": "Forza Horizon",
+      "platform": 2
+    }
+  ]
+}
