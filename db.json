@@ -3,24 +3,94 @@
     {
       "id": 1,
       "name": "NES",
-      "year": 1983
+      "year": 1983,
+      "manufacturer": "Nintendo",
+      "description": "Nintendo Entertainment System",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Nintendo-Famicom-Console-Set-FL.png/2560px-Nintendo-Famicom-Console-Set-FL.png"
     },
     {
       "id": 2,
       "name": "XBOX",
-      "year": 2001
+      "year": 2001,
+      "manufacturer": "Microsoft",
+      "description": "Original Xbox console",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Xbox-console.jpg"
+    },
+    {
+      "id": 3,
+      "name": "PlayStation",
+      "year": 1994,
+      "manufacturer": "Sony",
+      "description": "First generation PlayStation console",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PSX-Console-wController.jpg/2880px-PSX-Console-wController.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Nintendo Switch",
+      "year": 2017,
+      "manufacturer": "Nintendo",
+      "description": "Hybrid console for home and portable gaming",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg/2560px-Nintendo-Switch-Console-Docked-wJoyConRB.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sega Genesis",
+      "year": 1988,
+      "manufacturer": "Sega",
+      "description": "16-bit fourth-generation home video game console",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Sega-Mega-Drive-JP-Mk1-Console-Set.jpg/2880px-Sega-Mega-Drive-JP-Mk1-Console-Set.jpg"
     }
   ],
-  "games":[
+  "games": [
     {
       "id": 1,
-      "name": "Super mario",
-      "platform": 1
+      "name": "Super Mario Bros.",
+      "platform": 1,
+      "genre": "Platformer",
+      "release_date": "1985-09-13",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._cover.png"
     },
     {
       "id": 2,
       "name": "Forza Horizon",
-      "platform": 2
+      "platform": 2,
+      "genre": "Racing",
+      "release_date": "2012-10-23",
+      "developer": "Playground Games",
+      "publisher": "Microsoft Studios",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/43/Forza_Horizon_Boxart.jpg"
+    },
+    {
+      "id": 3,
+      "name": "God of War",
+      "platform": 3,
+      "genre": "Action-adventure",
+      "release_date": "2005-03-22",
+      "developer": "Santa Monica Studio",
+      "publisher": "Sony Computer Entertainment",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_cover.jpg"
+    },
+    {
+      "id": 4,
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "platform": 4,
+      "genre": "Action-adventure",
+      "release_date": "2017-03-03",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sonic the Hedgehog",
+      "platform": 5,
+      "genre": "Platformer",
+      "release_date": "1991-06-23",
+      "developer": "Sonic Team",
+      "publisher": "Sega",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5f/Sonic_the_Hedgehog_1_Genesis_box_art.jpg"
     }
   ]
 }
