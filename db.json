@@ -6,7 +6,7 @@
             "year": 1983,
             "manufacturer": "Nintendo",
             "description": "Nintendo Entertainment System",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Nintendo-Famicom-Console-Set-FL.png/2560px-Nintendo-Famicom-Console-Set-FL.png"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/NES-Console-Set.jpg"
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "year": 2001,
             "manufacturer": "Microsoft",
             "description": "Original Xbox console",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Xbox-console.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Xbox-Console-Set.png"
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "year": 1994,
             "manufacturer": "Sony",
             "description": "First generation PlayStation console",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PSX-Console-wController.jpg/2880px-PSX-Console-wController.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/PSX-Console-wController.jpg"
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "year": 2017,
             "manufacturer": "Nintendo",
             "description": "Hybrid console for home and portable gaming",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg/2560px-Nintendo-Switch-Console-Docked-wJoyConRB.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Nintendo_Switch_Console.png"
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "year": 1988,
             "manufacturer": "Sega",
             "description": "16-bit fourth-generation home video game console",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Sega-Mega-Drive-JP-Mk1-Console-Set.jpg/2880px-Sega-Mega-Drive-JP-Mk1-Console-Set.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Sega-Genesis-Mk2-6button.jpg"
         }
     ],
     "games": [
@@ -60,7 +60,7 @@
             "release_date": "1986",
             "developer": "Nintendo",
             "publisher": "Nintendo",
-            "image": "https://upload.wikimedia.org/wikipedia/en/4/4e/The_Legend_of_Zelda_NES_cover_art.png"
+            "image": "https://upload.wikimedia.org/wikipedia/en/e/e6/The_Legend_of_Zelda_Boxart.png"
         },
         {
             "id": 3,
@@ -110,7 +110,7 @@
             "release_date": "1987",
             "developer": "Nintendo",
             "publisher": "Nintendo",
-            "image": "https://upload.wikimedia.org/wikipedia/en/1/1f/Mike_Tyson%27s_Punch-Out%21_boxart.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/en/9/99/Mike_Tyson%27s_Punch-Out%21.jpg"
         },
         {
             "id": 8,
@@ -170,7 +170,7 @@
             "release_date": "2004",
             "developer": "Team Ninja",
             "publisher": "Tecmo",
-            "image": "https://upload.wikimedia.org/wikipedia/en/c/c1/Ninja_Gaiden_boxart.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/en/5/5c/Ninja_Gaiden_Xbox.jpg"
         },
         {
             "id": 14,
@@ -180,7 +180,7 @@
             "release_date": "2001",
             "developer": "Team Ninja",
             "publisher": "Tecmo",
-            "image": "https://upload.wikimedia.org/wikipedia/en/a/aa/Doa3box.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/en/5/5d/Dead_or_Alive_3.jpg"
         },
         {
             "id": 15,
@@ -190,7 +190,7 @@
             "release_date": "2001",
             "developer": "Bizarre Creations",
             "publisher": "Microsoft Game Studios",
-            "image": "https://upload.wikimedia.org/wikipedia/en/d/d1/Project_Gotham_Racing_cover.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/en/3/31/Project_Gotham_Racing_Coverart.jpg"
         },
         {
             "id": 16,
@@ -200,7 +200,7 @@
             "release_date": "2002",
             "developer": "Ubisoft Montreal",
             "publisher": "Ubisoft",
-            "image": "https://upload.wikimedia.org/wikipedia/en/f/ff/Splinter_Cell_cover.jpg"
+            "image": "https://upload.wikimedia.org/wikipedia/en/f/ff/Tom_Clancy%27s_Splinter_Cell.jpg"
         },
         {
             "id": 17,
